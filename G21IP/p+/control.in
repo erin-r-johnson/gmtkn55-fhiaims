@@ -3,7 +3,7 @@ spin collinear
 charge 1
 output_level MD_light
 relativistic atomic_zora scalar
- sc_accuracy_rho 1e-7
+ sc_accuracy_rho 1e-6
 fixed_spin_moment 2
 occupation_type integer 0.01
 ################################################################################
