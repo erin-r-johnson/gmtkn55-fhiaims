@@ -18,3 +18,11 @@ For each subset, the reference data is also provided in .din format,
 compatible with aoterodelaroza's refdata repository:
 https://github.com/aoterodelaroza/refdata
 
+Note that these inputs use integer \texttt{occupation_type} for some
+spin-polarized systems, which is required for obtaining appropriate
+densities and energies for isolated atoms (and some diatomics) used 
+in benchmarks, such as the W4-11 atomization energies subset. This
+option was supported in versions of aims including 250711 and earlier,
+although later versions of FHI-aims have removed this capability as it
+is an area of active development.
+
